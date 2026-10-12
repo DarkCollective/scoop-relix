@@ -1,14 +1,14 @@
 {
     "##": "The relix manifest. The release workflow of DarkCollective/relix-cli writes it from packaging/scoop/relix.json there, with the release's version and checksum: change it there, since a change made in the bucket is overwritten by the next release.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Run Relix relational-algebra scripts as a stage of a Unix pipeline",
     "homepage": "https://github.com/DarkCollective/relix-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DarkCollective/relix-cli/releases/download/v0.1.0/relix-0.1.0-windows-x86_64.zip",
-            "hash": "8dbabdd6aab2317928ac47453305c928dc3d0479d73b1956b872090a2af87988",
-            "extract_dir": "relix-0.1.0"
+            "url": "https://github.com/DarkCollective/relix-cli/releases/download/v0.1.1/relix-0.1.1-windows-x86_64.zip",
+            "hash": "af1a8aa90e65f1fb74fc372b8f8af55a6ca5953621e8b3c62999b481c07018b0",
+            "extract_dir": "relix-0.1.1"
         }
     },
     "bin": "bin\\relix.bat",
